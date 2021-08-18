@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphael´s Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">RLG</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about-me" onclick="toggleMenu();">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#hobby" onclick="toggleMenu();">Hobby</a></li>
+                <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+                <li><a href="#contactme" onclick="toggleMenu();">Contact</a></li> 
+            </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span><font color="#39ac73">Raphael Luis.</font></span></h2>
+            <h3>I'm a Initial Developer and Graphic Design.</h3>
+            <a href="#about-me"><span>About Me</span></a>
+        </div>
+    </section>
+    <section class="about" id="about-me">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Initial Developer and Graphic Design.</h3>
+                <p>Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor. Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor. Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor.<br></br>Lorem Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor. Lorem Ipsum dolor sit amet, consectetur adipisicing el Lorem Ipsum dolor.</p>
+            </div>
+            <div class="w50">
+                <img src="../static/img/pexels-ekaterina-bolovtsova-6373219.jpg" class="img-responsive" alt="About me">
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="heading white">
+            <h2>Projects</h2>
+            <p> These are some of the main projects i've developed.<br>Programming - Blue Edtech and computer graphics - Gracom.</p>
+        </div>
+        <div class="content">
+            <div class="projectsBx">
+                <img src="/static/img/icon1.png">
+                <h2>Projeto 01 - Python</h2>
+                <p>Projeto Detetive, consistia em criarmos dentro do python usando o que tinhamos aprendido até aquele momento (variáveis, print, input e as condicionais) para criarmos um programa que viesse a fazer 5 perguntas e assim baseado nas respostas recebidos, nos dizer se a pessoa era: Suspeita, Cúmplice, Assassino ou ela era inocente.</p>
+            </div>
+            <div class="projectsBx">
+                <img src="/static/img/icon1.png">
+                <h2>Projeto 02 - Python</h2>
+                <p>Projeto - Jogo Jokenpô, consistia em utilizar todos os conceitos aprendidos até aquele momento, utilizando até as estruturas de repetição. O jogo deveria pedir quantas rodadas fossem desejadas, junto com a opção do usuário entre (Pedra, papel e tesoura), o computador deveria dar sua opção de forma aleatória.</p>
+            </div>
+            <div class="projectsBx">
+                <img src="/static/img/icon1.png">
+                <h2>Projeto 03 - Python</h2>
+                <p>Projeto - Jogo de dados, utilizando os conceitos aprendidos até dicionários, deveriamos criar um programa onde 4 jogadores jogariam um dado e tivessem resultados aleatórios.</p>
+            </div>
+            <div class="projectsBx">
+                <img src="/static/img/icon1.png">
+                <h2>Projeto 05 - Python</h2>
+                <p>Projeto Final do modulo 01, ficção interativa. Onde em grupo simulamos a rotina diária de dois estagiários de gerações diferentes. As escolhas iriam gerar uma consequências diferentes para o personagem.</p>
+            </div>
+            <div class="projectsBx">
+                <img src="/static/img/fight.gif">
+                <h2>Projeto Photoshop</h2>
+                <p>Projeto em Photoshop, da criação de um gif utilizando todas as ferramentas aprendidas, utilizando a linha do tempo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hobby" id="hobby">
+        <div class="heading">
+            <h2>Hobby</h2>
+            <p>Some of the hobbies i love.</p>
+        </div>
+        <div class="content">
+            <div class="hobbyBx">
+                <img src="/static/img/bateria.png">
+            </div>
+            <div class="hobbyBx">
+                <img src="/static/img/praia.png">
+            </div>
+            <div class="hobbyBx">
+                <img src="/static/img/R.png">
+            </div>
+            <div class="hobbyBx">
+                <img src="/static/img/R (1).png">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>  
+            <p>HTML 5</p>
+                <div>
+                    <span id="html5">50%</span>
+                </div>  
+            <p>CSS 3</p>
+                <div>
+                    <span id="css3">45%</span>
+                </div>  
+            <p>JavaScript</p>
+                <div>
+                    <span id="javascript">20%</span>
+                </div>         
+            <p>Python</p>
+                <div>
+                    <span id="python">40%</span>
+                </div>              
+            <p>Dbeaver / PosterSQL</p>
+                <div>
+                    <span id="sql">30%</span>
+                </div>  
+            <p>Adobe Photoshop</p>
+                <div>
+                    <span id="ps">70%</span>
+                </div>
+     </section>
+
+    <section class="contactme" id="contactme">
+        <div class="heading white">
+            <h2>Contact</h2>
+            <p>If wanna contact me, send me an email.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p> R. Sen. Rui Palmeira<br>Maceió, Alagoas<br></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>(82)xxxx-xxxx</p>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>rlgbluet3c6@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <form action="/contactform" method="POST">
+                    <h3>Message Me</h3>
+                    <input type="text" name="name" placeholder="Please enter your name">
+                    <input type="email" name="email" placeholder="Please enter a valid email address">
+                    <textarea name="message" placeholder="Enter your message"></textarea>
+                    <input type="submit" value="send">
+                </form>
+                <div id="carregamento">
+                    <p>Enviando mensagem</p>
+                    <div id="loader"></div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="/static/js/scripts.js"></script>
+</body>
+</html>
